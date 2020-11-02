@@ -1,0 +1,15 @@
+.blue-span {
+    color: blue; 
+}
+
+.table, tr, td, th {
+    border: 1px solid black;
+}
+
+.footer {
+    font-size: 8px; color: gray;
+}
+
+.main {
+    font-size: 10px;
+}
