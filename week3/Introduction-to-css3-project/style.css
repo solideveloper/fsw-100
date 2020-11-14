@@ -14,11 +14,12 @@ link {
     }
 
 img {
-        float: left;
-        width: 35%; height: auto;
-        padding-right: 20px;
-        padding-bottom: 20px;
+    float: left;
+    width: 35%; height: auto;
+    padding-right: 20px;
+    padding-bottom: 20px;
     }
-    .justified {
-        text-align: justify
+    
+.justified {
+    text-align: justify
     }

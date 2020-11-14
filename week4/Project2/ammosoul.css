@@ -1,0 +1,72 @@
+body, html, .table, .main {
+    background-color: rgb(238, 252, 252);
+    text-align: center;
+    float: block;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+nav {
+    color: rgb(75, 75, 75);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.navpad {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+header {
+    color: rgb(5, 54, 52); font: ;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgb(162, 127, 209);
+    opacity: 0.3;
+}
+
+h3 {
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.b1, .b2, .b3, .b4, .b5 {
+    color:  rgb(5, 54, 52);font-weight: bold;
+    background-color: white;
+    float: left;
+    height: 200px;
+    margin-bottom: 1%;
+    font-family: 'Gochi Hand', cursive;font-size: 20px;
+}
+
+img {
+    width: 174px; height: 174px;
+}
+
+#wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+.p {
+    font-size: 37px;
+}
+
+.bm1, .bm2, .bm3, .bm4, .bm5 {
+    color:  rgb(5, 54, 52);font-weight: bold;
+    background-color: white;
+    width: 18%;
+    float: left;
+    height: 300px;
+    border: none;
+    margin: 0px;
+    padding-top: 40px;
+    font-family: 'Gochi Hand', cursive;font-size: 20px;
+}
+
+table {
+    display: inline-block;
+}
