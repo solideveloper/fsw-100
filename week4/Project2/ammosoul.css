@@ -1,72 +1,92 @@
-body, html, .table, .main {
-    background-color: rgb(238, 252, 252);
-    text-align: center;
-    float: block;
-    margin-top: 5px;
-    padding-left: 10px;
+.centered, table {
+    margin-left: auto;
+    margin-right: auto;
 }
-
 nav {
-    color: rgb(75, 75, 75);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: left;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    color: rgb(159, 102, 206);
+    position: absolute;
+    padding-top: none; 
 }
 
-.navpad {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-header {
-    color: rgb(5, 54, 52); font: ;
+body, html {
+    background-color: rgb(99, 168, 163);
     text-align: center;
-    font-size: 100px;
-    font-family: 'Gochi Hand', cursive;
-    background-color: rgb(162, 127, 209);
-    opacity: 0.3;
+    font-family: 'Architects Daughter', cursive;
+    padding-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 74px;
 }
 
 h3 {
-    color: rgb(75, 75, 75);
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 42px;
 }
 
-.b1, .b2, .b3, .b4, .b5 {
-    color:  rgb(5, 54, 52);font-weight: bold;
-    background-color: white;
-    float: left;
-    height: 200px;
-    margin-bottom: 1%;
-    font-family: 'Gochi Hand', cursive;font-size: 20px;
+h2 {
+    color: rgb(6, 88, 109);
+    font-size: 30px;
+    font-weight: bold;
 }
 
+h5 {
+    color: rgb(6, 88, 109);
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(6, 88, 109);
+    font-size: 22px;
+
+}
+
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    padding: 2px;
+    width: 500px;
+    height: 400px;
+}
 img {
-    width: 174px; height: 174px;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
 }
-
-#wrapper {
-    width: 100%;
-    display: inline-block;
+.box2 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(255, 255, 255);
+    width: 700px;
+    height: auto;
+    color: rgb(2, 2, 2); 
+    font-size: 22px;
+    font-weight: bold;
 }
-
-.p {
-    font-size: 37px;
+.img2 {
+    width: 95%;
+    height: 100px;
+    margin: auto;
+    border: 4px solid rgb(6, 88, 109);
 }
-
-.bm1, .bm2, .bm3, .bm4, .bm5 {
-    color:  rgb(5, 54, 52);font-weight: bold;
+table, th, tr, td {
+    height: 100;
+    width: auto;
+    color: rgb(216, 187, 233); 
+    font-family: 'Architects Daughter', cursive;
     background-color: white;
-    width: 18%;
-    float: left;
-    height: 300px;
-    border: none;
-    margin: 0px;
-    padding-top: 40px;
-    font-family: 'Gochi Hand', cursive;font-size: 20px;
 }
+ol { 
+    Font-family: 'Architects Daughter', cursive;
+    color: rgb(6, 88, 109);
+    font-size: 22px;
 
-table {
-    display: inline-block;
 }
