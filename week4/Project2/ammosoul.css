@@ -3,7 +3,7 @@ nav {
     font-size: 24px;
     font-weight: bold;
     position: fixed;
-    margin-top: none;
+    margin-top: 17%;
     border: 2px solid rgb(6, 88, 109);
     font-variant: small-caps;
 }
@@ -22,6 +22,7 @@ body, html {
     color:  rgb(255, 255, 255);
     margin-bottom: none;
     padding-top: 10px;
+    
     margin-left: auto;
     margin-right: auto;
     height: 200px;
@@ -124,4 +125,11 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     float: center;
+}
+.arsenalheading {
+    text-align: center;
+    Font-family: 'Architects Daughter', cursive;
+    color: rgb(135, 82, 185);
+    font-size: 38px;
+    font-weight: bold;
 }
