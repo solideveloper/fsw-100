@@ -1,0 +1,99 @@
+/* default styling */
+*, html, body{         
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/*image title*/
+h1 {
+    color: black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*image one*/
+#grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    
+}
+
+header {
+    color: red;
+    background-color: red;
+    grid-column: 1/3;
+}
+
+#blue {
+    color: blue;
+    background-color: blue;
+    grid-column: 3/5;
+}
+
+main {
+    color: yellow;
+    background-color: yellow; 
+    grid-column: 1/2;
+}
+
+#purple {
+    color: purple;
+    background-color: purple;
+    grid-column: 2/5;
+}
+
+footer {
+    color: orange;
+    background-color:orange;
+    grid-column: 1/5;
+}
+
+/*image two*/
+#grid-containertwo {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 24;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+#headertwo {
+    color: red;
+    background-color: red;
+    grid-column: 1/5;
+    grid-row: 1/9;
+}
+
+#bluetwo {
+    color: blue;
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 9/21;
+}
+
+#maintwo {
+    color: yellow;
+    background-color: yellow; 
+    grid-column: 3/5;
+    grid-row: 9/15;
+}
+
+#purpletwo {
+    color: purple;
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 15/21;
+}
+
+#footertwo {
+    color: purple;
+    background-color:purple;
+    grid-column: 4/5;
+    grid-row: 15/21;
+}

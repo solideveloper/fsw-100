@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box 1*/
+#boxone {
+  width:  100px;
+  height: 100px;
+  border: 1px solid rgb(126, 118, 118);
+  background-color: rgb(24, 41, 71);
+  transition: background-color 1s linear, width 1s linear;
+}
+#boxone:hover {
+  background-color: rgb(126, 118, 118);
+  border: none;
+  width: 300px;
+}
+
+/* Box 2*/
+#boxtwo {
+  width:  100px;
+  height: 100px;
+  border: 1px solid rgb(126, 118, 118);
+  background-color: rgb(24, 41, 71);
+  transition: background-color 1s linear height 1s linear margin-left linear;
+}
+#boxtwo:hover {
+  background-color: rgb(245, 0, 0);
+  border: 2px dashed black;
+  width: 1000px;
+  margin-left: 50px;
+}
+
+/* Box 3*/
+#boxthree {
+  width:  100px;
+  height: 100px;
+  border: 1px solid rgb(126, 118, 118);
+  background-color: rgb(24, 41, 71);
+  transition: border-radius 500ms ease-in, border-radius 1s ease-in;
+}
+#boxthree:hover {
+  background-color: rgb(13, 61, 15);
+  width: 700px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+/* Box 4*/
+#boxfour {
+  width:  100px;
+  height: 100px;
+  border: 1px solid rgb(126, 118, 118);
+  background-color: rgb(24, 41, 71);
+  transition: background-color 1s linear, width 1s linear;
+}
+#boxfour:hover {
+  background-color: rgb(126, 118, 118);
+  border: none;
+  width: 300px;
+}
+
+/* Box 5*/
+#boxfive {
+  width:  100px;
+  height: 100px;
+  border: 1px solid rgb(126, 118, 118);
+  background-color: rgb(24, 41, 71);
+  transition: background-color 1s linear, width 1s linear;
+}
+#boxfive:hover {
+  background-color: rgb(126, 118, 118);
+  border: none;
+  width: 300px;
+}
+
+/* Box 6*/
+#boxsix {
+  width:  100px;
+  height: 100px;
+  border: 1px solid rgb(126, 118, 118);
+  background-color: rgb(24, 41, 71);
+  transition: background-color 1s linear, width 1s linear;
+}
+#boxsix:hover {
+  background-color: rgb(126, 118, 118);
+  border: none;
+  width: 300px;
+}
+
