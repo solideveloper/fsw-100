@@ -81,7 +81,7 @@ img {
 }
 
 
-.appliaimg {  
+.img {  
     border-radius: 50%;
     width: 220px;
     height: 220px;
@@ -137,7 +137,7 @@ a.fb, a.tw, a.ig, a.pin, a.elink {
     .grid-container {
        width: 100%;
     }
-    .column1, .column2, .column3, .column3content, .menutable, .columnmenu  {
+    .column1, .column2, .column3, .column3content, .menutable, .columnmenu, table, img  {
         grid-column: 1/4;
     }
     .header {
