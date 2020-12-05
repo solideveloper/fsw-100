@@ -1,0 +1,263 @@
+/* default styling */
+*, html, body{         
+    Font-family: 'Architects Daughter', cursive;
+    display: flex grid;
+    color: rgb(28, 28, 63);
+}
+/*navbar*/
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    display: inline;
+    
+    
+}
+a:link, a:visited {
+    color: rgb(156, 28, 19);;
+    font-size: 22px;
+    text-decoration: none;
+    border: solid 2px rgb(156, 28, 19);
+    font-variant: small-caps;
+    padding-left: 10px; padding-right: 10px;
+    font-weight: bold;
+    transition: background-color 1s linear;
+    
+}
+a:hover {
+    color: white;
+    border: solid 4px rgb(28, 28, 63);
+    font-size: 32px;
+    text-decoration: none;
+    background-color: rgb(28, 28, 63);
+    
+}
+
+/*full container MOBILE*/
+#grid-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 11px;
+    
+    
+    color:  rgb(28, 28, 63);
+    margin: 1%;
+    padding: 1%;
+}
+.header  {
+    grid-column: 1/4;
+    grid-row: 1/24;
+    overflow: hidden;
+    
+    background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+}
+table, h1 {
+    grid-column: 1/4;
+    font-size: 52px;
+}
+
+#menutable, .table-reflect {
+    grid-column: 1/4;
+}
+
+.mainimage {
+    border-radius: 50%;
+    width: 42%;
+}
+
+/*MENU*/
+h3 {                                    /* An Arsenal Of Ammo For Yor Soul */
+    color: rgb(28,28,63);
+    font-size: 52px;
+    justify-content: center;
+    grid-column: 1/4;
+    margin: 0;
+    padding-bottom: 40px;
+   
+}
+.soli, .max, .blu, .lia, .ammo {
+font-size: 18px;
+}
+
+.soli, .strawbanieimg, .qas {
+    color: rgb(185, 39, 63);
+    
+}
+.max, .maxberryimg {
+    color: rgb(78, 12, 10);  
+}
+.blu, .bluezberryimg {
+    color: rgb(28, 28, 63);                                          /* flavor & images */
+}
+.ammo, .soulammoimg {
+    color: rgb(202, 118, 70);  
+}
+.lia, .appliaimg {
+    color: rgb(150, 165, 11); 
+}
+button {                                                /* flavor buttons*/
+    border: 2px solid;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.columnMenu {   
+    margin: 0;
+    padding: 0;
+    grid-column: 2/3;
+    border-radius: 50%;
+    
+}
+
+.strawbanieimg, .soulammoimg {
+    float: left;
+}
+.all5 {
+    float: top;
+}
+.appliaimg, .maxberryimg{
+    float: right;
+}
+.bluezberryimg {
+    float: top;
+}
+
+.soulammoimg, .appliaimg, .bluezberryimg, .strawbanieimg, .maxberryimg, .all5 {        /*flavor images*/
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+h6 {        
+    font-size: 30px;
+    padding: 0;
+    margin: 2%;
+    
+}
+
+.column1 {
+    grid-column: 1/2;
+}
+.column2 {
+    grid-column: 2/3;
+    align-items: center;
+}
+.column3 {
+    grid-column: 3/4;
+}
+p, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+/*Footer*/
+footer {
+    grid-column: 1/4;
+    background-color: rgb(230, 230, 230);
+    font-variant: small-caps;
+    text-align: right;
+}
+.icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    display: inline;
+   
+}
+
+a.fb, a.tw, a.ig, a.pin, a.elink {
+    text-decoration: none;
+    border: none;
+    
+}
+
+#left {
+    text-align: left;
+    float: left;
+}
+
+/*contact page*/
+
+#contact-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0;
+    padding: 1%;
+    border: solid 4px rgb(28, 28, 63);
+    
+}
+
+
+h5 {
+    font-size: 34px;
+    font-variant: small-caps;
+}
+.p-contact {
+    font-size: 32px;
+    color: rgb(185, 39, 63);
+    margin-top: 50px;
+    grid-column: 3/4;
+}
+
+.contact {    
+    border: solid 2px rgb(28, 28, 63);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+.email-contact {
+    background-image: url("https://user-images.githubusercontent.com/72266712/100528464-21225980-31ab-11eb-92ed-955dff592e60.jpg");
+}
+.ig-contact {
+    background-image: url("https://user-images.githubusercontent.com/72266712/100528470-2b445800-31ab-11eb-8ed7-dc47ffd1ff1d.jpg");
+}
+.pin-contact {
+    background-image: url("https://user-images.githubusercontent.com/72266712/100528463-2089c300-31ab-11eb-8689-58cea3eeafcb.jpg");
+    
+}
+.tw-contact {
+    background-image: url();
+    
+}
+.ig-contact, .email-contact, .pin-contact, .tw-contact {
+    color: white;
+    font-variant: small-caps;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 24px;
+    margin-bottom: 10px;
+}
+.column3content {
+    margin: auto; 
+    grid-column: 3/4;
+}
+
+/*Media Queries*/
+
+
+@media only screen and (max-width:600px) {
+    .grid-container {
+       width: 100%;
+    }
+    .column1, .column2, .column3, .column3content, .menutable, .columnmenu  {
+        grid-column: 1/4;
+    }
+    .header {
+        background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
+    }
+}
+@media only screen and (max-width: 600px) {
+    .content-container {
+      display: block;
+    }
+  }
