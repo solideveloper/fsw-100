@@ -76,15 +76,11 @@ h3 {
     
 }
 
-img {
-    float: right;
-}
-
-
 .img {  
     border-radius: 50%;
     width: 220px;
     height: 220px;
+    float:right;
 }
 h6 {        
     font-size: 30px;
@@ -133,19 +129,36 @@ a.fb, a.tw, a.ig, a.pin, a.elink {
 /*Media Queries*/
 
 
-@media only screen and (max-width:600px) {
+
+
+@media only screen and (max-width:750px) {
+    .grid-container {
+       width: 100%;
+       
+    }
+    .column1 {
+        grid-column: 1/4;
+    }
+    .column2 {
+        grid-column: 1/4;
+    }
+    .column3, .column3content {
+        grid-column: 1/4;
+    }
+    .qas,  .sidebar1, .sidebar1, .sidebar2, main {
+        font-size: 17px;
+    }
+    
+}
+@media only screen and (min-width:1300px) {
     .grid-container {
        width: 100%;
     }
-    .column1, .column2, .column3, .column3content, .menutable, .columnmenu, table, img  {
-        grid-column: 1/4;
+    
+    h6, h {
+        font-size: 34px;
     }
-    .header {
-        background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
-    }
+    .qas, .sidebar1, .sidebar1, .sidebar2, main {
+        font-size: 22px;
+    }  
 }
-@media only screen and (max-width: 600px) {
-    .content-container {
-      display: block;
-    }
-  }
