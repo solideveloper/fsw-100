@@ -23,6 +23,7 @@ a:link, a:visited {
     padding-left: 10px; padding-right: 10px;
     font-weight: bold;
     transition: background-color 1s linear;
+    position: static;
     
 }
 a:hover {
