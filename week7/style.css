@@ -10,9 +10,7 @@ ul {
     text-align: center;
 }
 li {
-    display: inline;
-    
-    
+    display: inline;  
 }
 a:link, a:visited {
     color: rgb(156, 28, 19);;
@@ -41,21 +39,15 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 11px;
-    
-    
     color:  rgb(28, 28, 63);
     margin: 1%;
     padding: 1%;
 }
+
 .header  {
     grid-column: 1/4;
-    grid-row: 1/24;
-    overflow: hidden;
-    width: 100%;
-    
-    background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
-    background-repeat: no-repeat, repeat;
-    background-position: center center;
+    display: inline-block;
+    background-image: url("https://user-images.githubusercontent.com/72266712/101378225-d70f3700-3880-11eb-81b2-cf62e5d0aded.png");
 }
 table, h1 {
     grid-column: 1/4;
