@@ -43,7 +43,7 @@
     width: 25%;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:768px) {
     .pink, .purple, .aqua, .green, .orange {
         width:100%;
     }
