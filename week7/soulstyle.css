@@ -60,7 +60,7 @@ a:hover {
 .mainimage {    
     border: solid 2px rgb(28, 28, 63);
     border-radius: 50%;
-    width: 50%; 
+    width: 40%; 
 }
 table, h1 {
     grid-column: 1/4;
