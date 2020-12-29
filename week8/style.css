@@ -54,6 +54,7 @@ a:hover {
     background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
     background-repeat: no-repeat, repeat;
     background-position: center center;
+    background-size: 75%;
 }
 table {
     grid-column: 1/4;
@@ -148,6 +149,9 @@ a.fb, a.tw, a.ig, a.pin, a.elink {
     .qas,  .sidebar1, .sidebar1, .sidebar2, main {
         font-size: 17px;
     }
+    h3 {
+        font-size: 34px;
+    }
     
 }
 @media only screen and (min-width:1300px) {
@@ -155,9 +159,7 @@ a.fb, a.tw, a.ig, a.pin, a.elink {
        width: 100%;
     }
     
-    h6, h {
-        font-size: 34px;
-    }
+    
     .qas, .sidebar1, .sidebar1, .sidebar2, main {
         font-size: 22px;
     }  

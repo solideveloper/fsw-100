@@ -10,9 +10,7 @@ ul {
     text-align: center;
 }
 li {
-    display: inline;
-    
-    
+    display: inline;  
 }
 a:link, a:visited {
     color: rgb(156, 28, 19);;
@@ -41,22 +39,28 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 11px;
-    
-    
     color:  rgb(28, 28, 63);
-    margin: 1%;
-    padding: 1%;
+    
+        
 }
+
+
 .header  {
     grid-column: 1/4;
-    grid-row: 1/24;
+    grid-row: 1/22;
     overflow: hidden;
-    width: 100%;
+    
     
     background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
     background-repeat: no-repeat, repeat;
-    background-position: center center;
-    background-size: 95%;
+    
+    background-position: center;
+    background-size: 75%;
+}
+.mainimage {    
+    border: solid 2px rgb(28, 28, 63);
+    border-radius: 50%;
+    width: 40%; 
 }
 table, h1 {
     grid-column: 1/4;
@@ -67,10 +71,7 @@ table, h1 {
     grid-column: 1/4;
 }
 
-.mainimage {
-    border-radius: 50%;
-    width: 42%;
-}
+
 
 
 /*MENU*/
@@ -214,8 +215,7 @@ h5 {
 .contact {    
     border: solid 2px rgb(28, 28, 63);
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 80%; 
 }
 .email-contact {
     background-image: url("https://user-images.githubusercontent.com/72266712/100528464-21225980-31ab-11eb-92ed-955dff592e60.jpg");
@@ -252,8 +252,7 @@ h5 {
 
 @media only screen and (max-width:750px) {
     .grid-container {
-       width: 100%;
-       
+       width: 100%;  
     }
     .column1 {
         grid-column: 1/4;
@@ -264,16 +263,43 @@ h5 {
     .column3, .column3content {
         grid-column: 1/4;
     }
-    .soli, .max, .blu, .lia, .ammo, .qas,  .sidebar1, .sidebar1, .sidebar2, main {
+    .soli, .max, .blu, .lia, .ammo, .qas,  .sidebar1, .sidebar1, .sidebar2, main,  .p-contact {
         font-size: 17px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    .header {
+        background-size: 95%;
+    }
+    a:hover {
+        font-size: 27px; 
     }
     
 }
-@media only screen and (min-width:1300px) {
-    .grid-container {
+@media only screen and (max-width: 599px) {
+    .soli, .max, .blu, .lia, .ammo, .qas,  .sidebar1, .sidebar1, .sidebar2, main,  .p-contact {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    .header {
+        background-size: 95%;
+    }
+
+
+}
+@media only screen and (min-width:1300px)   {
+    .grid-container, .contact-container {
        width: 100%;
     }
-    
     h6 {
         font-size: 34px;
     }
@@ -281,15 +307,3 @@ h5 {
         font-size: 22px;
     }  
 }
-
-
-
-
-
-
-
-
-  
-
-
-  
