@@ -1,0 +1,39 @@
+
+Font Selection is Important
+Choosing the right font has a huge impact on how the readers experience a website.
+
+The right font can create a strong identity for your brand.
+
+Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+
+##The CSS font-family Property
+In CSS, we use the font-family property to specify the font of a text.
+
+The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma.
+
+##Generic Font Families
+In CSS there are five generic font families:
+    
+    1) Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+    
+    2) Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+
+    3) Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+
+    4) Cursive fonts imitate human handwriting.
+
+    5) Fantasy fonts are decorative/playful fonts.
+
+
+#Color
+The color property specifies the color of text.
+
+Tip: Use a background color combined with a text color that makes the text easy to read.
+
+##Other Resources:
+- color.adobe.com (Great for finding an awesome color scheme)
+- https://fonts.google.com/ (Fantastic resource for great looking fonts)
+- https://www.designbold.com/academy/en/choosing-the-right-fonts-for-website/ (Excellent read on Font)
+
+
+

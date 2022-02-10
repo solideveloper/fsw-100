@@ -1,0 +1,47 @@
+World Wide Web (www):
+    a computer, known as a SERVER, hosts information over the internet 
+    a WEB BROWSER makes a request to the server which responds by delivering the web pages information and all the instructions for how to display it.
+    the browser interprets these instructions and displays it with all the styling and dynamic code.
+
+Web Server:
+    a computer that houses the code for website and a program to deliver the code to the computers when they request it 
+    the majority of the web servers used today are hosted on some version of the linux operating system which is technically just someone elses computer.
+    
+Web Services Stack:
+    has 4 main components: 
+        operating system (linux, mac, windows)
+        http server (web server layer, apache)
+        database (mysql, mongodb, sqlite)
+        scripting language (php, python, perl)
+    
+
+
+
+LAMP is the archtypal or most common model of a web services stack 
+
+L - linux                               M - MongoDb                                 M - MongoDb                        
+A - Apache              vs              E - Express                 vs              E - Express.js      
+M - MySql                               A - AngularJS                               R - React 
+P - PHP                                 N - Node.js                                 N - Node.js
+
+Full Stack Development 
+    Stack is separated into two parts:
+        Front-End: visibile parts of a website processed 'client side' by the browser     
+        Back-End: behind the scenes infrastructure and databases that live on a server 
+    Full Stack Developer can program both sides
+        when information is needed from a database, 
+            the front end of the website will make a request to the back end. 
+            the back end will retreive the requested information from the DB and return it to the fron end 
+            so it can be displayed in the browser 
+
+Standard Protocol for Naming Conventions:
+    kebab-case
+    camelCase
+    PascalCase
+    snake_case
+    SCREAMING_SNAKE_CASE
+
+Debugging:
+    Problem Solving Fundamentals 
+        Software bug is an error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result. or to behave in unintended ways. Debugging is the process of finding and resolving those errors within a peice of computer code that prevented it from performing the way it was supposed to. 
+

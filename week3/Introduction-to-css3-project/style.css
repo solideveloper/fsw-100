@@ -1,29 +1,54 @@
-h1 {
-    color: darkgreen; font-family: Georgia, 'Times New Roman', Times, serif;
+html {
+    background-color: lightcyan;
 }
 
-#headlines {
-    text-align: center;font-size: 20;
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headlines {
+    text-align: center;
+    font-size: 20;
+    color: green;
+}
+
+p {
+    line-height: 20px;
+}
+
+.bold90 {
+    color: lightcoral
 }
 
 a:link {
     text-decoration: none;
 }
-    a:hover {
-        text-decoration:underline;
-    }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* there are 4 link states: 
+        a:link - a normal unvisited link
+        a:visited - a link the user has visited
+        a:hover - a link when the user mouses over it
+        a:active - a link the moment it is clicked  */
 
 img {
     float: left;
-    width: 35%; height: auto;
+    width: 35%;
+    height: auto;
     padding-right: 20px;
     padding-bottom: 20px;
-    }
-    
+}
+
 .justified {
     text-align: justify
-    }
+}
 
 .uppercase {
     text-transform: uppercase;
-    }
+}
